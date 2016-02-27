@@ -1,0 +1,23 @@
+{
+  "name": "kafka-split",
+  "version": "1.0.0",
+  "description": "Transform stream for splitting up kafka messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap test.js --cov"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "tap": "~5.7.0"
+  },
+  "license": "MIT",
+  "author": "Evan Lucas <evanlucas@me.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/evanlucas/kafka-split"
+  },
+  "homepage": "https://github.com/evanlucas/kafka-split",
+  "bugs": {
+    "url": "https://github.com/evanlucas/kafka-split/issues"
+  }
+}
