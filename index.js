@@ -26,7 +26,8 @@ Split.prototype._transform = function _transform(chunk, enc, cb) {
     }
 
     const size = chunk.readInt32BE(0)
-    if (chunk.length < size) {
+
+    if (chunk.length < size + 4) {
       this._current = chunk
       return cb()
     } else {
